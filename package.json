@@ -1,0 +1,33 @@
+{
+  "name": "ex-typeorm",
+  "version": "1.0.0",
+  "description": "express-typeorm based applicatino",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "build": "tsc",
+    "start": "node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "medstrings6@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node-lts": "latest",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^25.3.3",
+    "globals": "^17.4.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "morgan": "^1.10.1",
+    "mysql2": "^3.18.2",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.28"
+  }
+}
