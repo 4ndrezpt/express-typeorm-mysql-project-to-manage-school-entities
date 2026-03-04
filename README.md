@@ -10,7 +10,7 @@ In this API I have implemented a backend to manage information between and API e
 4. TypeORM.
 5. MySQL
 
-###Other dependencies 
+### Other dependencies 
 * Morgan.
 * Cors.
 * dotenv.
